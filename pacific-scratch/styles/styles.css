@@ -1,0 +1,90 @@
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-attachment: fixed;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 72px;
+    color: white;
+    background-color: rgb(5, 69, 151);
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 0.5em;
+}
+main {
+    padding: 0em 2em 1em 2em;
+}
+
+.hero-image {
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.wrapper {
+    box-shadow: 10px 15px 38px -7px rgba(3, 43, 105, 0.57);
+    -webkit-box-shadow: 10px 15px 38px -7px rgba(3, 43, 105, 0.57);
+    -moz-box-shadow: 10px 15px 38px -7px rgba(3, 43, 105, 0.57);
+    max-width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    background-color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    font-weight: 600;
+    color: rgb(5, 69, 151);
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+nav a:hover {
+    transition: 0.4s;
+    color: white;
+    background-color: rgb(5, 69, 151);
+}
+footer {
+    text-align: center;
+    padding: 0em 2em 1em 2em;
+}
+.listing {
+    background-color: #df7575;
+    padding: 2em;
+}
+.card {
+    vertical-align: text-top;
+    margin: 1.3em;
+    display: inline-block;
+    border-radius: 14px;
+    width: 300px;
+    
+    background-color: white;
+    box-shadow: 10px 15px 38px -7px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 10px 15px 38px -7px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 10px 15px 38px -7px rgba(0, 0, 0, 0.57);
+}
+.card img {
+    border-radius: 14px 14px 0px 0px ;
+    max-width: 100%;
+}
+.card-body {
+    padding: 0em 1.3em 1.3em 1.3em;
+}
+.car:hover{
+    transition: 0.5s;
+    width: 320px;
+}
